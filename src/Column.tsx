@@ -4,7 +4,6 @@ import { useAppState } from "./state/AppStateContext";
 import {  ColumnContainer, ColumnTitle } from "./styles";
 
 export const Column = ({ text, id }: ColumnProps) => {
-  console.log(id)
 
   const {getTasksByListId} = useAppState();
 
