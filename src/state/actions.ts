@@ -42,4 +42,3 @@ export const setDraggedItem = (draggedItem: DragItem | null): Action => ({
   type: "SET_DRAGGED_ITEM",
   payload: draggedItem
 })
-
